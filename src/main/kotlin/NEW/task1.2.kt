@@ -11,7 +11,7 @@ fun main() {
     sam.recieveCall("Samsung", "Mr.Smith", "0978654312")
     ip.recieveCall("iPhone", "Mrs.Trinity", "0964513658")
 }
-class Phone constructor(val number : Int, val model : String, var weight : Double) {
+class Phone constructor(var number : Int, var model : String, var weight : Double) {
 
     constructor (number: Int, model: String) : this(number, model,0.0) {
     }
