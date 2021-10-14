@@ -1,4 +1,4 @@
-package NEW
+package new
 fun main() {
     val lg = Phone(1, "LG", 100.00)
     val sam = Phone(2, "Samsung", 120.00)
